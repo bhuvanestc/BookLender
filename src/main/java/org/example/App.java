@@ -8,7 +8,7 @@ public class App
         Person person1 = new Person(1, "Smith", "Gustavsberg");
         Person person2 = new Person(2, "Johnson", "Svensson");
 
-        Book book1 = new Book("Ikigai", "F. Scott Fitzgerald");
+        Book book1 = new Book("Ikigai", "Héctor García");
         Book book2 = new Book("Atomic Habits", "James Clare");
         Book book3 = new Book("The Secret" ,"Rhonda Byrne");
 

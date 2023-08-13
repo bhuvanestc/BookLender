@@ -1,6 +1,5 @@
 package org.example;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 public class Person {
     private int personId;
@@ -57,17 +56,17 @@ public class Person {
     {
        booksBorrowed.add(book);
        book.setBorrower(this);
+
     }
-    public void displayBooks()
+    public String displayBooks()
     {
         System.out.println(firstName+" "+lastName+" "+"has borrowed the following books ");
         for (Book book : booksBorrowed) {
             System.out.println(book.getTitle());
         }
+        return null;
 
     }
 
-
-
-
 }
+

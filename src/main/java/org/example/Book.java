@@ -56,7 +56,8 @@ public class Book {
 
     public void showPerson() {
         if (borrower != null) {
-            System.out.println("The Book " + title + " is currently borrowed by "+ borrower.getPersonId() + ":" + borrower.getFirstName() + " " + borrower.getLastName());
+            System.out.println("The Book " + title + " is currently borrowed by "+ borrower.getPersonId() + ":" +
+                    borrower.getFirstName() + " " + borrower.getLastName());
         } else {
             System.out.println(title+ " the book is currently available " );
 
